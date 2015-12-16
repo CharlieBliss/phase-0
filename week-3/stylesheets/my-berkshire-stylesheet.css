@@ -1,0 +1,29 @@
+* {color:#000080;
+  background-color:#ffffff;}
+a:link{color:#800080;}
+a:visited{color:#ff0000;}
+
+header{
+  font-weight:bold;
+  text-align:center;
+
+}
+.line-break{
+  display:block;
+}
+.big{
+  font-size: 35px;
+}
+
+.right{float:right;}
+
+
+
+
+
+
+ hr.hr1{border-top:1px solid #000080}
+
+
+footer{float:none;}
+
