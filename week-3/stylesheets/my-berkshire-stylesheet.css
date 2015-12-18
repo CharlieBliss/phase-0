@@ -15,7 +15,7 @@ header{
   font-size: 35px;
 }
 
-.right{float:right;}
+ul{display: inline-block;padding:5px;float:left;}
 
 
 
@@ -23,7 +23,4 @@ header{
 
 
  hr.hr1{border-top:1px solid #000080}
-
-
-footer{float:none;}
 
