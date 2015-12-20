@@ -1,25 +1,45 @@
 * {color:#000080;
-  background-color:#ffffff;}
+  background-color:white;}
 a:link{color:#800080;}
 a:visited{color:#ff0000;}
+a:hover{text-decoration: none}
 
-header{
-  font-weight:bold;
-  text-align:center;
+header{ font-weight:bold; text-align:center; }
 
-}
-.line-break{
-  display:block;
-}
-.big{
-  font-size: 35px;
-}
+.line-break{display:block;}
+.big{font-size:35px;}
 
-ul{display: inline-block;padding:5px;float:left;}
+.links-list{border:0px; width:95%; text-align:left; margin-right: 5%; margin-left: 5%;}
+.table-height{height:50px;}
+
+hr.hr1{border-top:1px solid #000080}
 
 
+footer{ margin-right: auto; margin-left: auto;}
+
+.center-footer-image{ display: block; margin-left:auto; margin-right: auto;}
+
+.small-footer-text{font-size: 10px; text-align: center;}
+
+.small-footer-text-bottom{text-align:left; font-size: 10px;}
 
 
+
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  It's important to make sure you have the right filename and path, that it's formatted correctly, and that everything can be done inside of the HTML file. It's also important to note that multiple CSS files can be linked to the same HTML file.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+ We struggled to get the site looking the way we wanted. The float command seemed helpful, but ultimately we decided to restructure the way that the HTML was written to make it easier for us to position.
+What CSS did you use to modify the element style (like size, color, etc.)
+We used the properties: color, font-weight,text-decoration, and font-size. Display was also important in getting elements looking the way that we needed them,
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+We used classes in order to assign properties to some of our elements that needed uniform properties. An ID would have only allowed us to edit a single element, so it didn't suit our needs.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+All of the styling in the real website is done directly in the HTML. That can make it pretty hard to parse and, I imagine, edit. A seperate CSS sheet seems much easier to manipulate and understand. As such, our website probably had cleaner code and followed best practices.
+*/
 
 
  hr.hr1{border-top:1px solid #000080}
