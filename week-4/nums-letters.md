@@ -11,14 +11,12 @@ What is the difference between float and integer division? How would you explain
 
 Mini-exercises.
 
-''''
-puts 24*365
+    puts 24*365
 
-''''
 
-''''
-puts 60*24*365*10
-''''
+
+    puts 60*24*365*10
+
 
 
 
@@ -35,3 +33,14 @@ Local variables are used to refer to a value, either fixed or flexible, in a way
 How was this challenge? Did you get a good review of some of the basics?
 
 This was a fine review of the basics. I found myself getting a little impatient reading things that I already knew, but when I went back to try things out, my hubris was punished and I found that I didn't remember things as well as I thought I had. It's always good explaining what things do, since I always get a better understanding of them as I explain.
+
+
+## Basic Math
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/basic-math.rb
+
+
+## Defining Variables
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/defining-variables.rb
+
+## Simple String
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/simple-string.rb
