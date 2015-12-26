@@ -46,5 +46,16 @@ How do you run a ruby program from the command line?
 How do you run an RSpec file from the command line?
   RSpec files are run in much the same way, replacing ruby with rspec. This command tests the specifications of the ruby file inside the terminal, returning errors or exceptions.
 What was confusing about this material? What made sense?
-  I didn't struggle very much with this material. Most of the problems I had came from typos or mistaken object types, usually between strings and ints. I had fun figuring out how to tweak the programs a little, like making the middle name in the name generator a middle initial instead.
+  I didn't struggle very much with this material. Most of the problems I had came from typos or mistaken object types, usually between strings and ints. The only thing I couldn't figure out was how to set up an error message in the event that the number passed through the favorite number replacer wasn't a number. I didn't stress too much about it, but I was a little frustrated that I couldn't get it working properly. I had fun figuring out how to tweak the programs a little, like making the middle name in the name generator a middle initial instead.
+
+
+Address solution:
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/define-method/my_solution.rb
+
+Math solution:
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/math/my_solution.rb
+
+
+
+
 =end
