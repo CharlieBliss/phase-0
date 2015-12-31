@@ -1,0 +1,1 @@
+return "fixnum" * 5
