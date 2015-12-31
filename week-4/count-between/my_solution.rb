@@ -15,14 +15,17 @@
 # Your Solution Below
 
 def count_between(list_of_integers,lower_bound,upper_bound)
+r = Range.new(lower_bound,upper_bound)
+new_array=[]
 list_of_integers.each do |x|
-  if x != lower_bound...upper_bound
-  list_of_integers.delete(x)
+  if r.include?(x)
+    new_array.push(x)
   end
 
 end
 
+return new_array.length
 end
 
 
-puts count_between([1,2,3,4,5,6,7,8,9],2,3)
+count_between([1,2,3,4,5,6,7,8,9],5,9)
