@@ -1,0 +1,35 @@
+
+
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/smallest-integer/my_solution.rb
+
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/largest-integer/my_solution.rb
+
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/shortest-string/my_solution.rb
+
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/longest-string/my_solution.rb
+
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/concatenate-arrays/my_solution.rb
+
+https://github.com/CharlieBliss/phase-0/blob/master/week-4/count-between/my_solution.rb
+
+
+
+What does it mean to iterate over an array?
+  Iterating over array means performing an action to each individual element in an array, or because of one. This could mean simply printing that element to the console, performing math on a few numbers in the array, or mixing up some strings. Iterating over the array allows you the flexibility to define your own purpose.
+
+
+How are arrays structured? What can they contain?
+
+Arrays are typically stored within variables in the format x = ["z","y",1,2]. You store any type of data that you'd normally store within a variable, such as strings, integers, floats, and even other arrays and methods. Any Ruby object can be stored within an array or a hash.
+
+Based on what you've learned, what is the best way to access values in a hash?
+The best way to access values in a hash seems to be by calling them from their keys. If my hash is hash{"a"=> 474747388292992792337}, I can just puts hash["a"] and I'll get my whacky number back. Much easier than typing it out myself.
+
+
+What are some important things to remember about hash keys and uniqueness?
+
+It's important to remember that if you try to add more values to a key that already exists in your hash, the new value will overwrite the old one. The same value can be assigned to multiple keys, but keys are always unique.
+
+What are the main differences between arrays and hashes? When do you think one will be better over the other?
+
+The main difference is that hashes are values stored in pairs, whereas arrays are values stored individually. Arrays are helpful in creating ordered lists to easily iterate through, but sometimes the structure of your data calls for a different system, like if you need to save user information, a hash may be more helpful.
