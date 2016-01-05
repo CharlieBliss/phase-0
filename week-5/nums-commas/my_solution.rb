@@ -20,30 +20,30 @@ Change integer input to string
 Change string to array of characters
 Iterate through the array of characters
 If a character is
-reverse string.
 
 
 =end
 
 # 1. Initial Solution
 def separate_comma(int)
-  string = int.to_s.chars.to_a
-  string.each do |x|
-    if x == string[3]
-      string.insert(3,",")
-    end
+  string = int.to_s.reverse
+  split = string.split(//)
+  length = split.length
 
-
+  if length < 4
+    return int.to_s
+  elsif length >=4
+    split.each_slice(3) {|slice| p slice.join("").length}
   end
-
-
 end
 
-puts separate_comma(1000)
+separate_comma(1234567891)
 
 # 2. Refactored Solution
 
-
+def format_number(number)
+  number.to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse
+end
 
 
 # 3. Reflection
