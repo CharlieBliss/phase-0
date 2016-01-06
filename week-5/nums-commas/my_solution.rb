@@ -29,20 +29,22 @@ def separate_comma(int)
   string = int.to_s.reverse
   split = string.split(//)
   length = split.length
+  final = []
 
   if length < 4
     return int.to_s
   elsif length >=4
-    split.each_slice(3) {|slice| p slice.join("").length}
+    split.each_slice(3){|p| final << p.join}
   end
+    return final.join(",").reverse
 end
 
-separate_comma(1234567891)
+puts separate_comma(5585858972439823475)
 
 # 2. Refactored Solution
 
-def format_number(number)
-  number.to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse
+def format_number(int)
+  int.to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse
 end
 
 
