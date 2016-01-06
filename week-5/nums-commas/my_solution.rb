@@ -59,7 +59,10 @@ end
 
 What was your process for breaking the problem down? What different approaches did you consider?
 
-  I basically stuck with the same methods throughout my process. It took me an awfully long time and, to be honest, there were probably points where I should have reset the method entirely, but I kept getting so close that I didn't want to back down. The last 5-10% of the method ended up challenging me more than the rest put together.The only times I really tried something different from my final solution were when I was trying to figure out how to convert all of the strings I was getting returned into one string separated by commas. I had it converted into groups of three, but every time I tried to get an output, I would find there was always one more step. It wasn't until I thought of making a variable outside of the each_slice method that I was able to solve it.
+  I basically stuck with the same methods throughout my process. 
+  It took me an awfully long time and, to be honest, there were probably points where I should have reset the method entirely, but I kept getting so close that I didn't want to back down. 
+  The last 5-10% of the method ended up challenging me more than the rest put together.The only times I really tried something different from my final solution were when I was trying to figure out how to convert all of the strings I was getting returned into one string separated by commas. 
+  I had it converted into groups of three, but every time I tried to get an output, I would find there was always one more step. It wasn't until I thought of making a variable outside of the each_slice method that I was able to solve it.
 
 
 
@@ -68,7 +71,8 @@ Was your pseudocode effective in helping you build a successful initial solution
   Honestly, not really. The problems I had were never with figuring out how I was going to solve it, it was figuring out how to tell the computer what I already knew. Maybe if I knew more about what Ruby was capable of, psuedocode would have been more helpful.
 
 What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
-  I learned about regular expressions, though my understanding of them is extremely limited. I barely worked my way through understanding what I was looking at, and even now, it's an entirely different method of adding the commas. Rather than pulling apart the string and joing it with the commas, it just looks at the string, finds every three places, and puts down a comma. It still uses the reverse method, so I wonder if there's an easier way.
+  I learned about regular expressions, though my understanding of them is extremely limited. I barely worked my way through understanding what I was looking at, and even now, it's an entirely different method of adding the commas. Rather than pulling apart the string and joing it with the commas, it just looks at the string, finds every three places, and puts down a comma. 
+  It still uses the reverse method, so I wonder if there's an easier way.
 
 How did you initially iterate through the data structure?
   Initially, I iterated using each slice. Rather than iterating over each variable, I thought it would be better to take chunks, since that's what I needed to work with anyway.
