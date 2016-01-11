@@ -35,11 +35,13 @@ end
 
 
 # Person 3
-
+array= [3,4,5,9]
 def my_array_sorting_method(source)
   source.sort { |a, b| a.to_s <=> b.to_s }
 end
-
+puts array
+puts "stop"
+puts my_array_sorting_method(array)
 def my_hash_sorting_method(source)
   source.sort_by{ |k, v| v}
 end

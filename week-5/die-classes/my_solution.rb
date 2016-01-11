@@ -1,8 +1,8 @@
 # Die Class 1: Numeric
 
-# I worked on this challenge [by myself]
+# I worked on this challenge [by myself, with: ]
 
-# I spent [1] hours on this challenge.
+# I spent [] hours on this challenge.
 
 # 0. Pseudocode
 
