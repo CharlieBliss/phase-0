@@ -2,13 +2,20 @@
 
 
 # I worked on this challenge [by myself].
-# I spent [#] hours on this challenge.
+# I spent [1] hours on this challenge.
 
 # Pseudocode
 
-# Input:
-# Output:
+# Input: This class will take an array of strings.
+# Output: There will be a few methods, the first will simply return the length of the array, the second will roll an random element of the that array.
 # Steps:
+=begin
+First, the Class is defined as Die and created, making sure that it has to take an Array of strings as the input
+
+The die is given a function, sides, which is going to return how many sides the die has, i.e. how many strings are in the original array
+
+The die is given a second function, roll, which will return a random element of the array.
+  This can be done by finding a random number between one and the length of the array and returning the element at that random number.
 
 
 # Initial Solution
@@ -22,7 +29,7 @@ class Die
   end
 
   def sides
-    return @sides
+    return @labels.length
   end
 end
 
