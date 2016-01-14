@@ -20,8 +20,8 @@ class GuessingGame
     unless @answer.is_a? Integer
       return ArgumentError ("You need to guess a number!")
 
+    end
   end
-end
 
 
     def guess(int)
