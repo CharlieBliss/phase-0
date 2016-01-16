@@ -1,8 +1,8 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge [With: Linda Oanh Ho].
+# I spent [2] hours on this challenge.
 
 # Pseudocode
 
@@ -111,3 +111,11 @@ end
 # raise ArgumentError.new("Wrong number of digits") if @number.length != 16
 
 # Reflection
+=begin
+What was the most difficult part of this challenge for you and your pair?
+  I think the most difficult part of the challege for us was just getting everything working together in a good way, establishing flow control, and bringing everything we've learned together.
+What new methods did you find to help you when you refactored?
+  We didn't find many new methods, and I think your refactor could still be a lot cleaner, but I guess the inject method wasn't something I'd had a ton of experience with.
+What concepts or learnings were you able to solidify in this challenge?
+  I think my understanding of how flow control and variable updating worked got a lot better during this session, though I still know that there are better ways to get intstance variables updated with new information.
+=end
