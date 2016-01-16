@@ -1,0 +1,20 @@
+
+
+def number_replacer(int)
+    number_array =[[47, 44, 71, 8, 88],
+        [22, 69, 75, 65, 73],
+        [83, 85, 97, 89, 57],
+        [25, 31, 96, 68, 51],
+        [75, 70, 54, 80, 83]]
+
+      number_array.map! { |element|
+  if element.kind_of?(Array) && element.include?(int)
+    element.map!{|inner| inner == int ? "x" : inner}
+  else
+    element
+  end
+  }
+      end
+
+
+p number_replacer(83)
