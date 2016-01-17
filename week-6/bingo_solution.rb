@@ -32,12 +32,12 @@ ELSE
   RETURN normal array
 
 
-# Display a column to the console
-  #fill in the outline here
-
 # Display the board to the console (prettily)
 
-  use PrettyPrint to display the arrays to the console properly.
+iterate through the array of arrays, 
+print each array to the console
+
+END
 =end
 # Initial Solution
 #require 'pp'
