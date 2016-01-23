@@ -1,0 +1,75 @@
+
+Did you learn anything new about JavaScript or programming in general?
+
+I didn't realize that JS has been around for so long. 1995 seems Jurassic in the context of the internet. I thought the early programming aside was pretty interesting, too. I'm glad I don't have to parse any binary information.
+Are there any concepts you feel uncomfortable with?
+
+  I can already tell that I'm going to get tripped up with where to put commas, semicolons, and curly braces, since all of that was unnecesary in Ruby. I'm sure once I have practice, it will get easier. I learned to punctuate in English, after all.
+
+Ch. 1: Values, Types, and Operators
+
+Identify two similarities and two differences between JavaScript and Ruby syntax with regard to numbers, arithmetic, strings, booleans, and various operators.
+
+There is a similarity in numbers being divided into fractional(float) numbers and integers, and calculations operating differently between the two. The special numbers are, at the very least, something I never saw in ruby. I thought the NaN "number" was similar to nil at first, but it actually has a value type, if not a value. Strings also operate very similarly to in Ruby, though it seems 'puts' is somewhat replaced by the /n value if you need things printed to different lines. The Symbols for && and || are the same as in Ruby, as well. The Automatic Type Conversion is something that Ruby HATED doing, so it will be interesting working with that. I imagine I'll run into some errors without JS telling me all the time that my Data is the wrong type.
+
+Ch. 2: Program Structure
+What is an expression?
+
+An expression is any javascript code that produces a value as a result.
+
+What is the purpose of semicolons in JavaScript? Are they always required?
+
+A semicolon terminates a statement. Though they are not always required, the rules of requirement are "somewhat complex and error-prone," so it doesn't seem like I'll typically have any reason to omit them.
+
+What causes a variable to return undefined?
+
+Attempting to initialize or access a variable without giving it a value first will cause it to return undefined.
+
+Write your own variable and do something to it in the eloquent.js file.
+DONE
+
+What does console.log do and when would you use it? What Ruby method(s) is this similar to?
+
+Console.log prints the returned value of a function or variable to the console. It operates most similarly to the print command.
+
+
+Write a short program that asks for a user to input their favorite food. After they hit return, have the program respond with "Hey! That's my favorite too!" (You will probably need to run this in the Chrome console (Links to an external site.) rather than node since node does not support prompt or alert). Paste your program into the eloquent.js file.
+Describe while and for loops
+
+A while loop will always continue its process as long as the definition of the loop remains true. So if it will operate while something is true, it will continue its process until that thing returns false. This can lead to infinite loops. A for loop is a specific type of while loop that acts a lot like the each method in Ruby. It basically says for each element in the specified variable or range, JS will perform an action.
+
+What other similarities or differences between Ruby and JavaScript did you notice in this section?
+
+  The structures of conditionals are very similar and the loops, while structured differently, are functionally identical. Iterative operators are also the same. Variable names are also similarly flexible, though typically don't start with a capital letter. Ruby-style underscores can be used, as well as camelCase.
+
+Complete at least one of the exercises (Looping a Triangle, FizzBuzz, of Chess Board) in the eloquent.js file.
+DONE
+Ch. 3: Functions (Links to an external site.) (Skip the sections on closure and recursion)
+What are the differences between local and global variables in JavaScript?
+
+Local variables are created inside of a function and can only be referred to from within the function. Each new instance of that function creates a new version of that variable that doesn't disrupt any other version.  Global variables are created outside of a function and can be updated with methods. There is only one version of these variables, and they will be disrupted by changing data.
+
+When should you use functions?
+
+Functions are helpful anytime there is code being rewritten many times. It's the same as a method in ruby, defining a variable to perform a task rather than rewriting it every time.
+
+What is a function declaration?
+
+  A function declaration is setting a variable equal to a function, giving that function a method by which it can be called. This can be done by setting var variable = function(value){} or simply setting function variable(value){}
+
+Complete the minimum exercise in the eloquent.js file.
+
+Ch. 4: Data Structures: Objects and Arrays (Links to an external site.)
+
+Skip the sections on the Lycanthrope's log, Computing Correlations, and sections from Further Arrayology to the Global Object, but read the chapter summary.
+
+What is the difference between using a dot and a bracket to look up a property? Ex. array.max vs array["max"]
+Dot notation requires a valid variable name, while bracket notation will evaluate the expression and return the evaluated result as the property name.
+
+Create an object called me that stores your name, age, three favorite foods, and a quirk in your eloquent.js file.
+
+What is a JavaScript object with a name and value property similar to in Ruby?
+
+It's pretty similar to a hash, though it seems easier to access and manipulate properties than it was to manipulate hashes.
+
+
