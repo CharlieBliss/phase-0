@@ -64,3 +64,13 @@ console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps
 
 
 // Reflection
+/*
+What JavaScript knowledge did you solidify in this challenge?
+I learned a lot about syntax for functions, built in methods, and loops. I also learned(though maybe not as thoroughly as I would have liked) the difference between a for...in loop and a for...of loop. 
+
+What are constructor functions?
+Constructor functions are used to create objects in Javascript, so that you can just pass the new Constructor() function some arguments and it will assign those properties to a new object in a way defined by your constructor function. 
+How are constructors different from Ruby classes (in your research)?
+Constructors and classes seem to serve a similar purpose, but as far as I've seen, classes are more dynamic and flexible. You can define more advanced instance methods using Ruby classes.
+
+*/

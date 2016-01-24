@@ -72,4 +72,10 @@ What is a JavaScript object with a name and value property similar to in Ruby?
 
 It's pretty similar to a hash, though it seems easier to access and manipulate properties than it was to manipulate hashes.
 
+What are the biggest similarities and differences between JavaScript and Ruby?
+Javascript and Ruby have very similar structures and functions(as in tasks that they perform), but the syntax and names for everything are pretty different. Javascript seems a lot more involved gramatically than Ruby, and relies on the user to do a few things that Ruby does automatically, like returning values. 
+Was some of your Ruby knowledge solidified by learning another language? If so, which concepts?
+Definitely, learning about looping in Javascript, especially using a counter to loop through something helped me better understand what some loops were actually doing in Ruby. 
+How do you feel about diving into JavaScript after reading these chapters?
+I'm a little nervous about the rate I'm learning things, I feel like I might forget some of this stuff by the end of the week, especially when it comes to syntax. But it was much easier to learn this after first learning all of the basic concepts in Ruby. 
 
