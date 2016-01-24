@@ -10,13 +10,36 @@
 // Functions:Ben(MoveRight,Moveup,MoveDown,MoveLeft,brushTeeth,skipBrushingTeeth,getInBed)
 
 // Pseudocode
-//
-//
-//
-//
-//
+//Create object ben
+// assign properties like name, job, teeth, position, sleepstatus, and confidence
+//Create object bensbed
+//assign position, comfort
+//Create object representing bens invasice thoughts
+// write a few thoughts and assign them as properties
+//Create object bens dream
+//write dreams and assign them as properties
+//Create object bens nightmares
+//write nightmares and assign them as properties
+//Create function to assign workday stress
+// Generate a random number between 1-100 to be the stress ben has accumulated over the day
+//Create a function to make Ben brush his teeth
+//  Change status of teeth to brushed
+//  Add to status of sleepiness
+//Create a function to move ben right
+// add 1 to ben's position,
+//  have a chance to generate a random invasive thought
+// IF ben has an invasive thought, decrease confidence
+////Create a function to move ben left
+// subtract 1 from ben's position,
+//  have a chance to generate a random invasive thought
+// IF ben has an invasive thought, decrease confidence
+//Create a function to make ben sleep
+// Create a formula to find ben's confidence when he goes to sleep
+// Confidence equals confidence minus stress plus comfort
+//  If ben's confidence is below a certain threshold, he has a stress dream/nightmare, otherwise he has a pleasant dream.
 
-// Initial Code
+
+ // Initial Code
 /*
 var ben = {
   name: "Ben",
@@ -26,7 +49,6 @@ var ben = {
   sleepstatus: "Awake",
   confidence: 50,
   workdaystress: 0,
-  loneliness: 0,
   sleepiness: 50,
 }
 
@@ -180,7 +202,7 @@ function goToSleep(){
     ben.confidence = (ben.confidence - ben.workdaystress + bensBed.comfort )
   }
   else{
-    ben.confidence = (ben.confidence - ben.workdaystress)
+    ben.confidence = (ben.confidence - ben.workdaystress - ben.sleepiness)
   }
   if (ben.confidence > 30){
     console.log(randomProperty(bensDream))
@@ -203,11 +225,13 @@ goToSleep()
 
 
 // Reflection
-//
-//
-//
-//
-//
-//
-//
-//
+/*
+//What was the most difficult part of this challenge?
+  The most difficult part for me was coming up with an idea for a game, but once I thought of something I liked, everything became a lot easier. The biggest technical challenge I had was creating a function to randomly sample from an object. I am sure there's an easier way to do it, but I couldn't find one.
+What did you learn about creating objects and functions that interact with one another?
+I learned that it's pretty easy to manipulate the status of objects, and I'm sure everything I learned about flow control from Ruby helped me better understand how to consistently update the status of variables and objects.
+Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+The only built-in method that I thought would really help was Math.random and object.keys to access a random instance of the dreams and invasive thoughts. I didn't find any others that I really considered more useful than what I had.
+How can you access and manipulate properties of objects?
+There are many ways to access and manipulate properties including doing it directly in driver code or creating a function to use input or not to update the values of properties.
+*/
