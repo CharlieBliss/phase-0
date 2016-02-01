@@ -256,42 +256,12 @@ for (var n in position){
 
 // Reflection
 
-// var tally = function(position) {
-//   for (var voter in votes) {
-//       if ((voteCount[position]).hasOwnProperty(votes[voter][position])){
-//         voteCount[position][votes[voter][position]]++;
-//     }
-//         else{
-//           voteCount[position][votes[voter][position]] = 1;
-//         }
-//    }
-// };
-
-
-
-// var selectWinner = function(position){
-//   var voteTally = [];
-//   for(var office in voteCount) {
-//     var number = voteCount[office]
-//     for(var name in number){
-//       if (office== position) {
-//         voteTally.push(voteCount[office][name]);}
-//       if ((number[name]) === Math.max.apply(null, voteTally) && (office == position)) {
-//       officers[position] = name;
-//       }
-// }
-// }
-// }
-
-// var position = ['president','vicePresident','treasurer','secretary']
-
-// for (var n in position){
-//   tally(position[n]);
-//   selectWinner(position[n]);
-// }
-
-
-
+// What did you learn about iterating over nested objects in JavaScript?
+// I learned how to structure a path so I was accessing the right object. Sometimes this didn't go exactly as planned, but I was able to figure everything out eventually.
+// Were you able to find useful methods to help you with this?
+// I was able to use push the same way as in ruby and also using the Math.max method to find the highest value of something. I'm sure there are better methods out there to do some of what I did in the refactor, but I thought it was pretty simple compared to my original solution.
+// What concepts were solidified in the process of working through this challenge?
+// I solidified my understanding of how to use functions to streamline a bunch of repetitive code, as well as how to get things flowing the way that I need them to be.
 
 
 
