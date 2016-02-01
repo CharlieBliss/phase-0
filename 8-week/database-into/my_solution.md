@@ -9,4 +9,4 @@ Databases are generally for storing large amounts of data with relational charac
 ##How can you select information out of a SQL database? What are some general guidelines for that?
   Selecting information is typically done with the keywords SELECT FROM. The information you need will define how you say this, so you can say SELECT name, phone_number FROM phonebook. There are many commands that will help you broaden or specify the commands, and those typically follow the table name in the syntac. An example would be SELECT * FROM phonebook WHERE name LIKE (%man%). This is telling the database to retrieve every category from the table as long as the name category of that row has, at some point, the letters "man" in it.There are many commands you can do, but they generally stick to this structure.
 
-![Database Key Pairs](Single Instance Database.png)
+![Database Key Pairs](SingleInstanceDatabase.png)
