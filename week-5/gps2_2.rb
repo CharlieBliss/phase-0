@@ -1,14 +1,14 @@
 # Method to create a list
 # input: string of items separated by spaces (example: "carrots apples cereal pizza")
 # steps: We would want to create a hash that used each item and its respective quantity to be represented by each key value pair.
-  # [fill in any steps here]
-#Separate strings into individual item
-#Assign each of the elements to a key in the hash.
-#Set a default value(0)
-  # set default quantity
-  # print the list to the console [can you use one of your other methods here?]
+#   [fill in any steps here]
+# Separate strings into individual item
+# Assign each of the elements to a key in the hash.
+# Set a default value(0)
+#   set default quantity
+#   print the list to the console [can you use one of your other methods here?]
 # output: Grocery hash
-#INITIAL SOLUTION:
+# INITIAL SOLUTION:
 grocery_list="carrots apples cereal pizza"
 
 
@@ -24,13 +24,13 @@ grocery_initial = list_creator(grocery_list)
 
 
 
-# Method to add an item to a list
-# input: item name and optional quantity
-# steps:
-#Take the original hash and a new key/value pair
-#Insert the new Key/value pair into the original hash
-# output:
-#updated hash with new key/value pairs
+Method to add an item to a list
+input: item name and optional quantity
+steps:
+Take the original hash and a new key/value pair
+Insert the new Key/value pair into the original hash
+output:
+updated hash with new key/value pairs
 
 def list_adder(grocery_hash, new_grocery, new_grocery_value)
   grocery_hash[new_grocery] = new_grocery_value
@@ -43,10 +43,10 @@ list_adder(grocery_initial,"eggs",2)
 
 
 
-# Method to remove an item from the list
-# input:a hash and the name of an item
-# steps:Input of an item for specific hash and remove said item
-# output:A hash with desired item removed
+Method to remove an item from the list
+input:a hash and the name of an item
+steps:Input of an item for specific hash and remove said item
+output:A hash with desired item removed
 
 def list_remover(grocery_hash,grocery_item)
   grocery_hash.delete(grocery_item)
@@ -59,9 +59,9 @@ list_remover(grocery_initial, "apples")
 # Method to update the quantity of an item
 # input: original hash,grocery item ,quantity of that item
 # steps:
-#Take the original hash and grocery item input
-#update the value of the key/value pair assigned to that grocery item
-#return the updated hash
+# Take the original hash and grocery item input
+# update the value of the key/value pair assigned to that grocery item
+# return the updated hash
 # output:the updated hash
 
 def list_updater(grocery_hash, grocery_item, grocery_quantity)
