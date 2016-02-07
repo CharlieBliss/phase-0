@@ -42,8 +42,8 @@
 
 // console.log(groceryList)
 
-// // Method to remove an item from the list
-// // input:a hash and the name of an item
+// // Function to remove an item from the list
+// // input:an object and the name of an item
 // // steps:Input of an item for specific hash and remove said item
 // // output:A hash with desired item removed
 
@@ -55,13 +55,13 @@
 // listDeleter(groceryList,'stuff')
 // console.log(groceryList)
 
-// // Method to update the quantity of an item
-// // input: original hash,grocery item ,quantity of that item
+// // function to update the quantity of an item
+// // input: object,grocery item ,quantity of that item
 // // steps:
-// // Take the original hash and grocery item input
+// // Take the original object and grocery item input
 // // update the value of the key/value pair assigned to that grocery item
-// // return the updated hash
-// // output:the updated hash
+// // return the updated object
+// // output:the updated object
 
 
 // var listUpdater = function(list,item,quantity){
@@ -74,8 +74,8 @@
 
 
 // // Method to print a list and make it look pretty
-// // input: Updated Hash
-// //steps:For each element of the hash we can print "You have __  ___"
+// // input: Updated object
+// //steps:For each element of the object we can print "You have __  ___"
 // // output: A string including updated values in a pretty format
 
 // var listPrinter = function(list){
@@ -129,3 +129,10 @@ var listPrinter = function(list){
 
 
 
+
+// What concepts did you solidify in working on this challenge? (reviewing the passing of information, objects, constructors, etc.)
+// It was really good to review constructing functions and establishing flow control in JS, and I feel pretty comfortable with that now.
+// What was the most difficult part of this challenge?
+// The most difficult part of this challenge was probably figuring out how to make an object that could be updated from outside of the method.
+// Did an array or object make more sense to use and why?
+//An object made more sense since each item in the original array had a value assigned to it.

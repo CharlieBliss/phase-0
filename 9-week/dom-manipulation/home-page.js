@@ -41,3 +41,9 @@ for (var i = 0; i< x.length;i++){
 
 var tmpl = document.getElementById('hidden');
 document.body.appendChild(tmpl.content.cloneNode(true))
+
+// What did you learn about the DOM?
+// I learned that Javascript(or other languages, but usually JS)can be used to update values like CSS and html if certain conditions are met, or just when the page is loaded.
+// What are some useful methods to use to manipulate the DOM?
+// the getELementsby methods are all very helpful for selecting and updating the values of HTML elements. You can also use most CSS properties, or variations therof, as properties to change.
+

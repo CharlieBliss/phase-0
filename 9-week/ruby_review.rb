@@ -62,8 +62,6 @@ class Playlist
   end
 end
 
-# Refactored Solution
-
 
 
 
@@ -93,3 +91,9 @@ my_playlist.display
 
 # Reflection
 
+# What concepts did you review in this challenge?
+# We mostly reviewed Classes and we looked a lot at inheritence, though we ended up not really needing it very much. We mostly focused on defining instance methods and variables and making sure all the information we needed was accessible where we needed it.
+# What is still confusing to you about Ruby?
+# Sometimes I think i'll be able to access certain values, but it will turn out they are still private. I still have some stuff to work out, especially with Classes.
+# What are you going to study to get more prepared for Phase 1?
+# I'd definitely like to get more comfortable with classes and looping. Most of what I'm concerned about is making my website look good, though, so I'm spending a lot of time on that.
